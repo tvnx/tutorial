@@ -7,4 +7,4 @@ build:
   tags:
     - docker
   script:
-    - gradle build test
+    - ./gradlew build test
