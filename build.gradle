@@ -43,9 +43,12 @@ dependencies {
 }
 
 junitPlatform {
-    engines {
-        include 'junit-jupiter'
+    filters {
+        engines {
+            include 'junit-jupiter'
+        }
+
+        enableStandardTestTask true
+        logManager 'org.apache.logging.log4j.jul.LogManager'
     }
-    enableStandardTestTask true
-    logManager 'org.apache.logging.log4j.jul.LogManager'
 }
