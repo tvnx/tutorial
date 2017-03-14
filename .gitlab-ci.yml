@@ -1,0 +1,10 @@
+image: sikoried/docker-gradle
+stages:
+  - build
+  - test
+build:
+  stage: build
+  tags:
+    - docker
+  script:
+    - gradle build test
