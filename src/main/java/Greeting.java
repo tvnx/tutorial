@@ -5,8 +5,11 @@ public class Greeting {
 		this.addressee = addressee;
 	}
 
+	/**
+	 * Should write "Hello, <addressee>!" to stdout
+	 */
 	public void greet() {
-		System.out.println("Hello, " + addressee + "!");
+		System.out.println(addressee);
 	}
 
 	public static void main(String[] args) {
