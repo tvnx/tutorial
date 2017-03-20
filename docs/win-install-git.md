@@ -35,8 +35,7 @@ verwendet Ihr MinTTY.
     ![git-step6](res/git-step6.png "Bash konfigurieren")
 
 
-5. Anschließend wird Git entsprechend installiert.
-
-Nach der Installation solltet Ihr auf Euerem Rechner nun folgende drei Applikationen haben:
+5. Anschließend wird Git entsprechend installiert. Nach der Installation solltet Ihr auf Euerem Rechner nun folgende drei Applikationen haben:
 
     ![git-step7](res/git-step7.png "Startmenü nach erfolgreicher Installation")
+
