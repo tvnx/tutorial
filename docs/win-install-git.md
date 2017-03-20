@@ -8,7 +8,7 @@
 
 ![git-step2](res/git-step2.png "Git für Windows herunterladen")
 
-3.  Nachdem der Download abgeschlossen ist, installiert Ihr die heruntergeladene `git.exe`
+3. Nachdem der Download abgeschlossen ist, installiert Ihr die heruntergeladene `git.exe`
 
 
 # Installationsroutine
