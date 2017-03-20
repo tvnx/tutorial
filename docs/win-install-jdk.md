@@ -16,12 +16,12 @@ Installation aktuelles Java JDK & Java 8
     Wichtig zu merken bzw. explizit während der Installationsroutine anzugeben ist,
     in welchem Verzeichnis das JDK installiert wird.
     Standard unter Windows ist C:\Program Files\Java\jdk….
-    ![jdkstep3](res/pic3jdk.jpg "Installation JDK")
+    ![jdkstep3](res/pic3jdk.png "Installation JDK")
 
     Nach der Installation des JDKs erfolgt automatisch als nächsten die Installationsroutine von  der Java JRE.
     Auch hier ist der Standardpfad wieder C:\Program Files\Java\jre…
     Dieser kann aber auch explizit angegeben werden.
-    ![jdkstep4](res/pic4jdk.jpg "Installation JRE Java")
+    ![jdkstep4](res/pic4jdk.png "Installation JRE Java")
 
 
 4. Schritt
@@ -34,7 +34,7 @@ Installation aktuelles Java JDK & Java 8
     Geht in Windows einfach auf die „Suche“ und sucht dort nach
     „Systemumgebungsvariable“.
     Ein Beispiel für Windows 10 findet Ihr im rechten Screenshot
-    ![jdkstep5](res/pic5jdk.jpg "Umgebungsvariable")
+    ![jdkstep5](res/pic5jdk.png "Umgebungsvariable")
 
     Anschließend kommt Ihr zu den Systemeigenschaften.
     Dort klickt Ihr auf die „Umgebungsvariablen…“
