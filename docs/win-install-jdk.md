@@ -50,7 +50,7 @@ Installation aktuelles Java JDK & Java 8
     Anschließend bestätigt Ihr mit „OK“.
      Der Pfad wurde bei Schritt 3 in der Installation festgelegt!
     (Im Screenshot wurde der Standard Pfad verwendet)
-    ![jdkstep8](res/pic9jdk.jpg "Benutzervariable speichern")
+    ![jdkstep8](res/pic9jdk.png "Benutzervariable speichern")
 
 4.2 PATH Systemvariable konfigurieren 
     Nun modifiziert Ihr noch die PATH – Systemvariable entsprechend.
