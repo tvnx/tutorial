@@ -3,52 +3,33 @@ version '1.0'
 
 buildscript {
     repositories {
-        mavenCentral()
+        jcenter()
     }
     dependencies {
-        classpath 'org.junit.platform:junit-platform-gradle-plugin:1.0.0-M3'
+        classpath 'com.github.ben-manes:gradle-versions-plugin:0.17.0'
+        classpath 'org.junit.platform:junit-platform-gradle-plugin:1.1.0'
     }
 }
 
 apply plugin: 'java'
-apply plugin: 'idea'
-apply plugin: 'eclipse'
+apply plugin: 'application'
 apply plugin: 'org.junit.platform.gradle.plugin'
+apply plugin: 'com.github.ben-manes.versions'
+
 
 sourceCompatibility = 1.8
-ext.log4jVersion = '2.6.2'
+targetCompatibility = 1.8
 
 repositories {
-    mavenCentral()
-}
-
-/* Fix separate source folders for Eclipse */
-import org.gradle.plugins.ide.eclipse.model.SourceFolder
-eclipse.classpath.file {
-    beforeMerged { classpath ->
-        classpath.entries.clear()
-    }
-    whenMerged {  cp ->
-        cp.entries.findAll { it instanceof SourceFolder && it.path.startsWith("src/main/") }*.output = "bin/main"
-        cp.entries.findAll { it instanceof SourceFolder && it.path.startsWith("src/test/") }*.output = "bin/test"
-        cp.entries.removeAll { it.kind == "output" }
-    }
+    jcenter()
 }
 
 dependencies {
-    compile("org.apache.logging.log4j:log4j-core:${log4jVersion}")
-    compile("org.apache.logging.log4j:log4j-jul:${log4jVersion}")
-    testCompile("org.junit.jupiter:junit-jupiter-api:5.0.0-M3")
-    testRuntime("org.junit.jupiter:junit-jupiter-engine:5.0.0-M3")
-}
-
-junitPlatform {
-    filters {
-        engines {
-            include 'junit-jupiter'
-        }
-
-        enableStandardTestTask true
-        logManager 'org.apache.logging.log4j.jul.LogManager'
-    }
+    /* JUnit 5 */
+    testCompile("org.junit.jupiter:junit-jupiter-api:${junit_jupiter_version}")
+    testRuntime("org.junit.jupiter:junit-jupiter-params:${junit_jupiter_version}")
+    testRuntime("org.junit.jupiter:junit-jupiter-engine:${junit_jupiter_version}")
+    testRuntime("org.junit.platform:junit-platform-launcher:${junit_platform_version}")
+    testCompile("org.apache.logging.log4j:log4j-core:${log4j_version}")
+    testCompile("org.apache.logging.log4j:log4j-jul:${log4j_version}")
 }
