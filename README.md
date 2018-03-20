@@ -36,9 +36,9 @@ Siehe [separate Dokumentation](docs/win-install-jdk.md).
 
 Windows: Siehe [separate Dokumentation](docs/win-install-git.md).
 
-OS X: &nbsp;&nbsp;&nbsp; Sie können auch die [XCode Command Line Tools installieren](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/).
+OS X: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sie können auch die [XCode Command Line Tools installieren](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/).
 
-Linux: &nbsp;&nbsp;&nbsp; Verwenden Sie am besten den Paketmanager Ihrer Distribution.
+Linux: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Verwenden Sie am besten den Paketmanager Ihrer Distribution.
 
 
 ## Einen Fork erstellen
