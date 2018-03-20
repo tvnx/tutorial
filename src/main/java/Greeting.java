@@ -9,7 +9,7 @@ public class Greeting {
 	 * Should write "Hello, <addressee>!" to stdout
 	 */
 	public void greet() {
-		System.out.println(addressee);
+		System.out.println("Hello, " + addressee + "!");
 	}
 
 	public static void main(String[] args) {
