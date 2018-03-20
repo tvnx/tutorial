@@ -22,23 +22,23 @@ Dazu werden Sie
 
 > Hinweis: Es ist nicht zwingend notwendig für jede Übung einen Fork zu erstellen, jedoch ist es hilfreich, wenn Sie Ihre Arbeit auf Github sichern oder mit Kommilitonen zusammenarbeiten möchten.
 
-> Hinweis: Sollten Sie keinen kostenlosesn Github Account wünschen, so können Sie die Angaben zwar anonym auschecken, aber weder einen Fork erstellen, noch Änderungen pushen.
+> Hinweis: Sollten Sie keinen kostenlosen Github Account wünschen, so können Sie die Angaben zwar anonym auschecken, aber weder einen Fork erstellen, noch Änderungen pushen.
 
 
 # Vorarbeiten
 
 ## JDK installieren
 
-Siehe [separate Dokumentatio](docs/win-install-jdk.md).
+Siehe [separate Dokumentation](docs/win-install-jdk.md).
 
 
 ## Git installieren
 
-Windows: siehe [separate Dokumentation](docs/win-install-git.md).
+Windows: Siehe [separate Dokumentation](docs/win-install-git.md).
 
-OS X: Sie können auch die [XCode Command Line Tools installieren](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/).
+OS X: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sie können auch die [XCode Command Line Tools installieren](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/).
 
-Linux: verwenden Sie am besten den Paketmanager Ihrer Distribution.
+Linux: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Verwenden Sie am besten den Paketmanager Ihrer Distribution.
 
 
 ## Einen Fork erstellen
@@ -88,7 +88,7 @@ Das Projekt im `master` Branch kompiliert zwar, allerdings schlägt der Testcase
 
 - Navigieren Sie auf die Webseite Ihres Forks, und klicken Sie auf "Branches".
 - Klicken Sie nun für Ihren Branch auf die Schaltfläche "New pull request", um die Änderungen zum `master` branch zu begutachten und den Pull Request zu erstellen.
-- Auf der nächsten Seite (bzw. unter "Pull Reuqests") können Sie den Merge bestätigen, und so die Änderungen in Ihren `master` branch einbringen.
+- Auf der nächsten Seite (bzw. unter "Pull Requests") können Sie den Merge bestätigen, und so die Änderungen in Ihren `master` branch einbringen.
 
 Gratulation, Sie haben Ihre erste Lösung eingebracht!
 
