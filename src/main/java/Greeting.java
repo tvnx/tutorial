@@ -1,15 +1,15 @@
 public class Greeting {
-	private final String addressee;
+	private final String greetingRecipient;
 
-	public Greeting(String addressee) {
-		this.addressee = addressee;
+	public Greeting(String greetingRecipient) {
+		this.greetingRecipient = greetingRecipient;
 	}
 
 	/**
-	 * Should write "Hello, <addressee>!" to stdout
+	 * Should write "Hello, <greetingRecipient>!" to stdout
 	 */
 	public void greet() {
-		System.out.println(addressee);
+		System.out.println(greetingRecipient);
 	}
 
 	public static void main(String[] args) {
